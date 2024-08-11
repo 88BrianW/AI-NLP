@@ -16,7 +16,7 @@ const About = () => {
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{"About Brian!"}</title>
+				<title>{"About MovieNowAI"}</title>
 			</Helmet>
 
 			<div className="page-content">
@@ -32,11 +32,11 @@ const About = () => {
 						<div className="about-main">
 							<div className="about-right-side">
 								<div className="title about-title">
-									About Me
+									About the AI
 								</div>
 
 								<div className="subtitle about-subtitle">
-									I'm Brian Wang, a senior high school student who aspires to be working on the computer science/engineer, cybersecurity, or video game design field. I started programming when I was in 7th grade, which equates to about 4 years. In addition to many projects, I also participate in many competitions, and do community service for many institutions. I was born in the US, and fluent in two languages: English and Chinese. On my family side, I have an older brother, and loving parents. As for my hobbies, I enjoy creating video games, working out, and playing volleyball. In my free time, I often get lost in time creating programming projects, such as Project Agile, my video game creation.
+									MovieNow is a website that recommends the user a movie, TV show, or anime based on their current interests using natural language processing through AI. All movies and anime are presented as links to other free websites around the web, which allows the user to find free movies from one place. This service is free of charge.
 								</div>
 							</div>
 
@@ -44,20 +44,13 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="channel_banner.jpg"
+											src="movieNowBanner.jpg"
 											alt="about"
 											className="about-image"
 										/>
 									</div>
 								</div>
-
-								<div className="about-socials">
-									<Socials />
-								</div>
 							</div>
-						</div>
-						<div className="about-socials-mobile">
-							<Socials />
 						</div>
 					</div>
 					<div className="page-footer">

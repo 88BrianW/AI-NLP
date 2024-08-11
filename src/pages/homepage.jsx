@@ -14,9 +14,6 @@ import {
 import Logo from "../components/common/logo";
 import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
-import Works from "../components/homepage/works";
-import Competitions from "../components/homepage/competitions"
-import AllProjects from "../components/projects/allProjects";
 
 import "./styles/homepage.css";
 
@@ -85,7 +82,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="ghibli.png"
+											src="movieBG.png"
 											alt="About me!"
 											className="homepage-image"
 										/>
@@ -94,89 +91,11 @@ const Homepage = () => {
 							</div>
 						</div>
 
-						<div className="homepage-socials">
-							<a
-								href={"https://discord.gg/UVjqd99xRe"}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faDiscord}
-									className="homepage-social-icon"
-								/>
-							</a>
-
-							<a
-								href={"https://www.instagram.com/brianwanggg/"}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faInstagram}
-									className="homepage-social-icon"
-								/>
-							</a>
-
-							<a
-								href={"https://www.youtube.com/channel/UCHrMegKX6Hd7jmEDjNHt9ow"}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faYoutube}
-									className="homepage-social-icon"
-								/>
-							</a>
-
-							<a
-								href={"https://github.com/88BrianW"}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faGithub}
-									className="homepage-social-icon"
-								/>
-							</a>
-
-							<a
-								href={"https://open.spotify.com/user/k0shv47zkv7sz6kuza7w2uifo?si=039c298c29484c47"}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faSpotify}
-									className="homepage-social-icon"
-								/>
-							</a>
-
-
-							<a
-								href={`mailto:${"88brianw@gmail.com"}`}
-								target="_blank"
-								rel="noreferrer"
-							>
-								<FontAwesomeIcon
-									icon={faMailBulk}
-									className="homepage-social-icon"
-								/>
-							</a>
-						</div>
-
 						<div className="homepage-projects">
-							<AllProjects />
+							
 						</div>
 
 						<div className="homepage-after-title">
-
-							<div className="homepage-works">
-								<Competitions />
-							</div>
-
-							<div></div>
-							<div className="homepage-works">
-								<Works />
-							</div>
 
 							
 

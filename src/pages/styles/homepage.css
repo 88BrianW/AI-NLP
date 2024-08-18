@@ -85,6 +85,10 @@
 	align-items: center;
 }
 
+.input {
+	
+}
+
 @media (max-width: 1024px) {
 	.homepage-first-area {
 		flex-direction: column;

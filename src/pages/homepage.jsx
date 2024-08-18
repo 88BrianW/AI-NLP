@@ -1,19 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-	faDiscord,
-	faInstagram,
-	faGithub,
-	faSpotify,
-	faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
-
 import Logo from "../components/common/logo";
-import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
+import MovieCard from "../components/common/movieCard";
 
 import "./styles/homepage.css";
 
@@ -91,19 +81,9 @@ const Homepage = () => {
 							</div>
 						</div>
 
-						<div className="homepage-projects">
-							
-						</div>
 
-						<div className="homepage-after-title">
-
-							
-
-						</div>
-
-						<div className="page-footer">
-							<Footer />
-						</div>
+						<MovieCard/>
+						
 					</div>
 				</div>
 			</div>
